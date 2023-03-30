@@ -1,0 +1,209 @@
+2023-03-20 00:23:19,948 INFO - Starting the scheduler
+2023-03-20 00:23:19,948 INFO - Processing each file at most -1 times
+2023-03-20 00:23:19,950 INFO - Loaded executor: SequentialExecutor
+2023-03-20 00:23:19,952 INFO - Launched DagFileProcessorManager with pid: 59743
+2023-03-20 00:23:19,953 INFO - Resetting orphaned tasks for active dag runs
+2023-03-20 00:26:49,264 INFO - Setting next_dagrun for api_dag to 2023-03-20T00:00:00+00:00, run_after=2023-03-21T00:00:00+00:00
+2023-03-20 00:26:49,283 INFO - 4 tasks up for execution:
+	<TaskInstance: api_dag.is_api_active scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: api_dag.get_posts scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-20T04:26:47.516286+00:00 [scheduled]>
+	<TaskInstance: api_dag.get_posts manual__2023-03-20T04:26:47.516286+00:00 [scheduled]>
+2023-03-20 00:26:49,283 INFO - DAG api_dag has 0/16 running and queued tasks
+2023-03-20 00:26:49,283 INFO - DAG api_dag has 1/16 running and queued tasks
+2023-03-20 00:26:49,284 INFO - DAG api_dag has 2/16 running and queued tasks
+2023-03-20 00:26:49,284 INFO - DAG api_dag has 3/16 running and queued tasks
+2023-03-20 00:26:49,284 INFO - Setting the following tasks to queued state:
+	<TaskInstance: api_dag.is_api_active scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: api_dag.get_posts scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-20T04:26:47.516286+00:00 [scheduled]>
+	<TaskInstance: api_dag.get_posts manual__2023-03-20T04:26:47.516286+00:00 [scheduled]>
+2023-03-20 00:26:49,286 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='scheduled__2023-03-19T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-03-20 00:26:49,286 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-20 00:26:49,287 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='get_posts', run_id='scheduled__2023-03-19T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-03-20 00:26:49,287 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'get_posts', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-20 00:26:49,287 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-20T04:26:47.516286+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-03-20 00:26:49,287 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-20T04:26:47.516286+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-20 00:26:49,288 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='get_posts', run_id='manual__2023-03-20T04:26:47.516286+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-03-20 00:26:49,288 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'get_posts', 'manual__2023-03-20T04:26:47.516286+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-20 00:26:49,289 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-20 00:37:53,529 INFO - Exiting gracefully upon receiving signal 15
+2023-03-20 00:37:53,538 INFO - Sending Signals.SIGTERM to group 59743. PIDs of all processes in the group: []
+2023-03-20 00:37:53,540 INFO - Sending the signal Signals.SIGTERM to group 59743
+2023-03-20 00:37:53,541 INFO - Sending the signal Signals.SIGTERM to process 59743 as process group is missing.
+2023-03-20 00:37:53,552 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/api_dag.py']
+2023-03-22 16:17:44,529 INFO - Starting the scheduler
+2023-03-22 16:17:44,529 INFO - Processing each file at most -1 times
+2023-03-22 16:17:44,531 INFO - Loaded executor: SequentialExecutor
+2023-03-22 16:17:44,535 INFO - Launched DagFileProcessorManager with pid: 74799
+2023-03-22 16:17:44,536 INFO - Resetting orphaned tasks for active dag runs
+2023-03-22 16:17:44,550 INFO - Marked 1 SchedulerJob instances as failed
+2023-03-22 16:17:44,557 INFO - Reset the following 5 orphaned TaskInstances:
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [running]>
+2023-03-22 16:17:47,255 INFO - 5 tasks up for execution:
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [scheduled]>
+2023-03-22 16:17:47,255 INFO - DAG api_dag has 0/16 running and queued tasks
+2023-03-22 16:17:47,256 INFO - DAG my_api_connection has 0/16 running and queued tasks
+2023-03-22 16:17:47,256 INFO - DAG my_api_connection has 1/16 running and queued tasks
+2023-03-22 16:17:47,256 INFO - DAG my_api_connection has 2/16 running and queued tasks
+2023-03-22 16:17:47,257 INFO - DAG my_api_connection has 3/16 running and queued tasks
+2023-03-22 16:17:47,257 INFO - Setting the following tasks to queued state:
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [scheduled]>
+2023-03-22 16:17:47,259 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T19:06:03.876863+00:00', try_number=9, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 16:17:47,259 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 16:17:47,259 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-19T00:00:00+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:17:47,260 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:17:47,260 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-20T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:17:47,260 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-20T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:17:47,261 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-21T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:17:47,261 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:17:47,262 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='manual__2023-03-22T19:55:36.510098+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:17:47,262 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T19:55:36.510098+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:17:47,263 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 16:21:49,977 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']' returned non-zero exit status 1..
+2023-03-22 16:21:49,979 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:26:43,276 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-20T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:29:41,598 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:31:23,793 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T19:55:36.510098+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:06,711 INFO - Executor reports execution of api_dag.is_api_active run_id=manual__2023-03-22T19:06:03.876863+00:00 exited with status failed for try_number 9
+2023-03-22 16:35:06,712 INFO - Executor reports execution of my_api_connection.api_sensor run_id=scheduled__2023-03-19T00:00:00+00:00 exited with status success for try_number 2
+2023-03-22 16:35:06,712 INFO - Executor reports execution of my_api_connection.api_sensor run_id=scheduled__2023-03-20T00:00:00+00:00 exited with status success for try_number 1
+2023-03-22 16:35:06,713 INFO - Executor reports execution of my_api_connection.api_sensor run_id=scheduled__2023-03-21T00:00:00+00:00 exited with status success for try_number 1
+2023-03-22 16:35:06,713 INFO - Executor reports execution of my_api_connection.api_sensor run_id=manual__2023-03-22T19:55:36.510098+00:00 exited with status success for try_number 1
+2023-03-22 16:35:06,722 INFO - TaskInstance Finished: dag_id=my_api_connection, task_id=api_sensor, run_id=manual__2023-03-22T19:55:36.510098+00:00, map_index=-1, run_start_date=2023-03-22 20:31:25.514069+00:00, run_end_date=None, run_duration=None, state=queued, executor_state=success, try_number=1, max_tries=0, job_id=50, pool=default_pool, queue=default, priority_weight=2, operator=HttpSensor, queued_dttm=2023-03-22 20:34:04.089737+00:00, queued_by_job_id=51, pid=75724
+2023-03-22 16:35:06,723 INFO - TaskInstance Finished: dag_id=my_api_connection, task_id=api_sensor, run_id=scheduled__2023-03-20T00:00:00+00:00, map_index=-1, run_start_date=2023-03-22 20:26:45.671475+00:00, run_end_date=None, run_duration=None, state=queued, executor_state=success, try_number=1, max_tries=0, job_id=43, pool=default_pool, queue=default, priority_weight=2, operator=HttpSensor, queued_dttm=2023-03-22 20:34:04.089737+00:00, queued_by_job_id=51, pid=75418
+2023-03-22 16:35:06,723 INFO - TaskInstance Finished: dag_id=my_api_connection, task_id=api_sensor, run_id=scheduled__2023-03-21T00:00:00+00:00, map_index=-1, run_start_date=2023-03-22 20:29:43.143795+00:00, run_end_date=None, run_duration=None, state=queued, executor_state=success, try_number=1, max_tries=0, job_id=47, pool=default_pool, queue=default, priority_weight=2, operator=HttpSensor, queued_dttm=2023-03-22 20:34:04.089737+00:00, queued_by_job_id=51, pid=75613
+2023-03-22 16:35:06,723 INFO - TaskInstance Finished: dag_id=my_api_connection, task_id=api_sensor, run_id=scheduled__2023-03-19T00:00:00+00:00, map_index=-1, run_start_date=2023-03-22 20:21:51.519685+00:00, run_end_date=None, run_duration=None, state=queued, executor_state=success, try_number=2, max_tries=0, job_id=39, pool=default_pool, queue=default, priority_weight=2, operator=HttpSensor, queued_dttm=2023-03-22 20:34:04.089737+00:00, queued_by_job_id=51, pid=75088
+2023-03-22 16:35:06,724 INFO - TaskInstance Finished: dag_id=api_dag, task_id=is_api_active, run_id=manual__2023-03-22T19:06:03.876863+00:00, map_index=-1, run_start_date=2023-03-22 20:34:06.638410+00:00, run_end_date=None, run_duration=None, state=running, executor_state=failed, try_number=9, max_tries=0, job_id=52, pool=default_pool, queue=default, priority_weight=3, operator=HttpSensor, queued_dttm=2023-03-22 20:34:04.089737+00:00, queued_by_job_id=51, pid=75917
+2023-03-22 16:35:06,736 ERROR - DagFileProcessorManager (PID=74799) last sent a heartbeat 1039.58 seconds ago! Restarting it
+2023-03-22 16:35:06,743 INFO - Sending Signals.SIGTERM to group 74799. PIDs of all processes in the group: [74799]
+2023-03-22 16:35:06,743 INFO - Sending the signal Signals.SIGTERM to group 74799
+2023-03-22 16:35:07,787 INFO - Process psutil.Process(pid=74799, status='terminated', exitcode=0, started='16:17:44') (74799) terminated with exit code 0
+2023-03-22 16:35:07,792 INFO - Launched DagFileProcessorManager with pid: 75976
+2023-03-22 16:35:07,828 INFO - Resetting orphaned tasks for active dag runs
+2023-03-22 16:35:07,829 INFO - Marked 2 SchedulerJob instances as failed
+2023-03-22 16:35:07,833 INFO - Reset the following 9 orphaned TaskInstances:
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:19:00.228833+00:00 [queued]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:21:05.117287+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:21:55.627267+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:26:41.859406+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [running]>
+2023-03-22 16:35:12,467 INFO - 7 tasks up for execution:
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:19:00.228833+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:21:05.117287+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:35:11.107296+00:00 [scheduled]>
+2023-03-22 16:35:12,467 INFO - DAG my_api_connection has 0/16 running and queued tasks
+2023-03-22 16:35:12,468 INFO - DAG my_api_connection has 1/16 running and queued tasks
+2023-03-22 16:35:12,468 INFO - DAG my_api_connection has 2/16 running and queued tasks
+2023-03-22 16:35:12,468 INFO - DAG my_api_connection has 3/16 running and queued tasks
+2023-03-22 16:35:12,469 INFO - DAG my_api_connection has 4/16 running and queued tasks
+2023-03-22 16:35:12,469 INFO - DAG my_api_connection has 5/16 running and queued tasks
+2023-03-22 16:35:12,469 INFO - DAG my_api_connection has 6/16 running and queued tasks
+2023-03-22 16:35:12,470 INFO - Setting the following tasks to queued state:
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-19T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-20T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor scheduled__2023-03-21T00:00:00+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T19:55:36.510098+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:19:00.228833+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:21:05.117287+00:00 [scheduled]>
+	<TaskInstance: my_api_connection.api_sensor manual__2023-03-22T20:35:11.107296+00:00 [scheduled]>
+2023-03-22 16:35:12,471 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-19T00:00:00+00:00', try_number=3, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,471 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,471 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-20T00:00:00+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,472 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-20T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,472 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='scheduled__2023-03-21T00:00:00+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,472 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,473 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='manual__2023-03-22T19:55:36.510098+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,473 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T19:55:36.510098+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,473 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='manual__2023-03-22T20:19:00.228833+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,474 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T20:19:00.228833+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,474 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='manual__2023-03-22T20:21:05.117287+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,474 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T20:21:05.117287+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,475 INFO - Sending TaskInstanceKey(dag_id='my_api_connection', task_id='api_sensor', run_id='manual__2023-03-22T20:35:11.107296+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-03-22 16:35:12,475 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'manual__2023-03-22T20:35:11.107296+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:35:12,476 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:36:30,541 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-20T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 16:39:38,481 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 17:18:24,564 INFO - Exiting gracefully upon receiving signal 15
+2023-03-22 17:18:25,665 INFO - Sending Signals.SIGTERM to group 75976. PIDs of all processes in the group: [75976]
+2023-03-22 17:18:25,666 INFO - Sending the signal Signals.SIGTERM to group 75976
+2023-03-22 17:18:26,726 INFO - Process psutil.Process(pid=75976, status='terminated', exitcode=0, started='16:35:07') (75976) terminated with exit code 0
+2023-03-22 17:18:26,729 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-19T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 17:18:30,261 INFO - Executing command: ['airflow', 'tasks', 'run', 'my_api_connection', 'api_sensor', 'scheduled__2023-03-20T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/cities.py']
+2023-03-22 17:18:30,569 INFO - Exiting gracefully upon receiving signal 15
+2023-03-22 17:18:30,575 INFO - Sending Signals.SIGTERM to group 75976. PIDs of all processes in the group: []
+2023-03-22 17:18:30,577 INFO - Sending the signal Signals.SIGTERM to group 75976
+2023-03-22 17:18:30,578 INFO - Sending the signal Signals.SIGTERM to process 75976 as process group is missing.
+2023-03-22 19:23:42,347 INFO - Starting the scheduler
+2023-03-22 19:23:42,348 INFO - Processing each file at most -1 times
+2023-03-22 19:23:42,350 INFO - Loaded executor: SequentialExecutor
+2023-03-22 19:23:42,353 INFO - Launched DagFileProcessorManager with pid: 4701
+2023-03-22 19:23:42,356 INFO - Resetting orphaned tasks for active dag runs
+2023-03-22 19:23:42,370 INFO - Marked 1 SchedulerJob instances as failed
+2023-03-22 19:23:42,383 INFO - Reset the following 4 orphaned TaskInstances:
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:21:55.627267+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:26:41.859406+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T23:21:21.366461+00:00 [queued]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [running]>
+2023-03-22 19:23:43,985 INFO - 5 tasks up for execution:
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:21:55.627267+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:26:41.859406+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T23:21:21.366461+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T23:23:18.183116+00:00 [scheduled]>
+2023-03-22 19:23:43,985 INFO - DAG api_dag has 0/16 running and queued tasks
+2023-03-22 19:23:43,986 INFO - DAG api_dag has 1/16 running and queued tasks
+2023-03-22 19:23:43,986 INFO - DAG api_dag has 2/16 running and queued tasks
+2023-03-22 19:23:43,986 INFO - DAG api_dag has 3/16 running and queued tasks
+2023-03-22 19:23:43,987 INFO - DAG api_dag has 4/16 running and queued tasks
+2023-03-22 19:23:43,987 INFO - Setting the following tasks to queued state:
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:21:55.627267+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T20:26:41.859406+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T23:21:21.366461+00:00 [scheduled]>
+	<TaskInstance: api_dag.is_api_active manual__2023-03-22T23:23:18.183116+00:00 [scheduled]>
+2023-03-22 19:23:43,988 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T19:06:03.876863+00:00', try_number=17, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 19:23:43,988 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:23:43,989 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T20:21:55.627267+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 19:23:43,989 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T20:21:55.627267+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:23:43,990 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T20:26:41.859406+00:00', try_number=2, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 19:23:43,990 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T20:26:41.859406+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:23:43,990 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T23:21:21.366461+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 19:23:43,990 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T23:21:21.366461+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:23:43,991 INFO - Sending TaskInstanceKey(dag_id='api_dag', task_id='is_api_active', run_id='manual__2023-03-22T23:23:18.183116+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-03-22 19:23:43,991 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T23:23:18.183116+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:23:43,992 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:38:29,577 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']' returned non-zero exit status 1..
+2023-03-22 19:38:29,579 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T20:21:55.627267+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 19:59:28,668 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T20:26:41.859406+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 20:03:46,767 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T23:21:21.366461+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-22 20:12:46,117 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T23:23:18.183116+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-24 00:09:05,282 INFO - Exiting gracefully upon receiving signal 15
+2023-03-24 00:09:06,414 INFO - Sending Signals.SIGTERM to group 4701. PIDs of all processes in the group: [4701]
+2023-03-24 00:09:06,415 INFO - Sending the signal Signals.SIGTERM to group 4701
+2023-03-24 00:09:06,418 INFO - Process psutil.Process(pid=4701, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='2023-03-22 19:23:42') (4701) terminated with exit code Negsignal.SIGTERM
+2023-03-24 00:09:06,429 INFO - Executing command: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--local', '--subdir', 'DAGS_FOLDER/weatherapi_test.py']
+2023-03-24 00:09:11,083 INFO - Exiting gracefully upon receiving signal 15
+2023-03-24 00:09:11,091 INFO - Sending Signals.SIGTERM to group 4701. PIDs of all processes in the group: []
+2023-03-24 00:09:11,094 INFO - Sending the signal Signals.SIGTERM to group 4701
+2023-03-24 00:09:11,097 INFO - Sending the signal Signals.SIGTERM to process 4701 as process group is missing.

@@ -1,0 +1,80 @@
+[2023-03-26T00:16:39.675-0400] {processor.py:153} INFO - Started process (PID=35171) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:16:39.677-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:16:39.677-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:16:39.677-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:16:39.748-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:16:40.079-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:16:40.078-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:16:40.095-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:16:40.095-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-25T00:00:00+00:00, run_after=2023-03-26T00:00:00+00:00
+[2023-03-26T00:16:40.112-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.438 seconds
+[2023-03-26T00:18:50.402-0400] {processor.py:153} INFO - Started process (PID=35319) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:18:50.405-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:18:50.405-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:18:50.405-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:18:50.446-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:18:50.810-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:18:50.810-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:18:50.834-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:18:50.833-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:18:50.852-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.450 seconds
+[2023-03-26T00:20:37.064-0400] {processor.py:153} INFO - Started process (PID=35439) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:20:37.069-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:20:37.069-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:20:37.069-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:20:37.106-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:20:37.549-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:20:37.549-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:20:37.567-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:20:37.567-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:20:37.581-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.517 seconds
+[2023-03-26T00:22:56.762-0400] {processor.py:153} INFO - Started process (PID=35607) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:22:56.766-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:22:56.766-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:22:56.766-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:22:56.994-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:22:57.417-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:22:57.417-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:22:57.427-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:22:57.427-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:22:57.434-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.672 seconds
+[2023-03-26T00:25:00.161-0400] {processor.py:153} INFO - Started process (PID=35755) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:25:00.163-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:25:00.164-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:25:00.164-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:25:00.447-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:25:00.891-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:25:00.891-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:25:00.899-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:25:00.899-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:25:00.906-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.745 seconds
+[2023-03-26T00:29:22.192-0400] {processor.py:153} INFO - Started process (PID=36050) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:29:22.211-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:29:22.211-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:29:22.211-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:29:22.260-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:29:23.034-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:29:23.034-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:29:23.041-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:29:23.041-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:29:23.206-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 1.018 seconds
+[2023-03-26T00:30:14.491-0400] {processor.py:153} INFO - Started process (PID=36112) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:30:14.495-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:30:14.495-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:30:14.495-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:30:14.546-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:30:15.133-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:30:15.133-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:30:15.148-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:30:15.141-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:30:15.175-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.684 seconds
+[2023-03-26T00:38:28.975-0400] {processor.py:153} INFO - Started process (PID=36720) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:38:28.979-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:38:28.979-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:28.979-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:38:29.013-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:38:29.674-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:29.674-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:38:29.682-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:29.682-0400] {dag.py:3440} INFO - Setting next_dagrun for api_dag to 2023-03-26T00:00:00+00:00, run_after=2023-03-27T00:00:00+00:00
+[2023-03-26T00:38:29.704-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.729 seconds
+[2023-03-26T00:40:42.267-0400] {processor.py:153} INFO - Started process (PID=36887) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:40:42.271-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:40:42.272-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:40:42.272-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:40:42.469-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:40:42.802-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:40:42.801-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:40:42.828-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.561 seconds
+[2023-03-26T00:42:06.599-0400] {processor.py:153} INFO - Started process (PID=36984) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:42:06.602-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:42:06.603-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:42:06.602-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:42:06.668-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:42:08.675-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:42:08.674-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:42:08.747-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 2.153 seconds
+[2023-03-26T00:45:57.824-0400] {processor.py:153} INFO - Started process (PID=37289) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:45:57.829-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:45:57.829-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:45:57.829-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:45:57.876-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:45:58.493-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:45:58.493-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:45:58.533-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.709 seconds
+[2023-03-26T00:49:10.984-0400] {processor.py:153} INFO - Started process (PID=37541) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:49:10.987-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-26T00:49:10.988-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:49:10.988-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:49:11.190-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-26T00:49:12.756-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:49:12.756-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-26T00:49:12.891-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 1.907 seconds

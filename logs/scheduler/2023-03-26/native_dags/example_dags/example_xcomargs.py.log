@@ -1,0 +1,16 @@
+[2023-03-26T00:16:59.968-0400] {processor.py:153} INFO - Started process (PID=35202) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:16:59.972-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-03-26T00:16:59.972-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:16:59.972-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:17:00.036-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:17:00.330-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:17:00.330-0400] {dag.py:2693} INFO - Sync 2 DAGs
+[2023-03-26T00:17:00.339-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:17:00.339-0400] {dag.py:3440} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-03-26T00:17:00.340-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:17:00.340-0400] {dag.py:3440} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-03-26T00:17:00.347-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.379 seconds
+[2023-03-26T00:38:57.055-0400] {processor.py:153} INFO - Started process (PID=36756) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:38:57.059-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-03-26T00:38:57.059-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:57.059-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:38:57.154-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-03-26T00:38:57.751-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:57.751-0400] {dag.py:2693} INFO - Sync 2 DAGs
+[2023-03-26T00:38:57.770-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:57.770-0400] {dag.py:3440} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-03-26T00:38:57.771-0400] {logging_mixin.py:137} INFO - [2023-03-26T00:38:57.771-0400] {dag.py:3440} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-03-26T00:38:57.779-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.724 seconds

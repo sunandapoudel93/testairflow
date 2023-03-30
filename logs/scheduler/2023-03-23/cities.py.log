@@ -1,0 +1,14 @@
+[2023-03-22T20:02:41.101-0400] {processor.py:153} INFO - Started process (PID=7410) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:02:41.103-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T20:02:41.104-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:02:41.104-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:02:41.139-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:02:41.399-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:02:41.398-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T20:02:41.407-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:02:41.407-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T20:02:41.416-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.316 seconds
+[2023-03-22T20:11:38.899-0400] {processor.py:153} INFO - Started process (PID=8010) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:11:38.902-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T20:11:38.903-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:11:38.903-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:11:38.944-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T20:11:39.191-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:11:39.191-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T20:11:39.201-0400] {logging_mixin.py:137} INFO - [2023-03-22T20:11:39.200-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-23T00:00:00+00:00, run_after=2023-03-24T00:00:00+00:00
+[2023-03-22T20:11:39.208-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.310 seconds

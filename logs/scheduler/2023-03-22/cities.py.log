@@ -1,0 +1,473 @@
+[2023-03-22T14:44:55.933-0400] {processor.py:153} INFO - Started process (PID=68948) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:44:55.935-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:44:55.935-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:55.935-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:44:56.084-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:44:56.395-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.395-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:my_api_connection
+[2023-03-22T14:44:56.398-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.398-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:my_api_connection
+[2023-03-22T14:44:56.400-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.400-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:my_api_connection
+[2023-03-22T14:44:56.400-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.400-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-22T14:44:56.405-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.405-0400] {dag.py:2714} INFO - Creating ORM DAG for my_api_connection
+[2023-03-22T14:44:56.408-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:56.408-0400] {dag.py:3440} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:44:56.415-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.482 seconds
+[2023-03-22T14:53:31.674-0400] {processor.py:153} INFO - Started process (PID=69528) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:53:31.677-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:53:31.677-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:53:31.677-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:53:31.707-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:53:31.919-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:53:31.919-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:53:31.926-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:53:31.926-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:53:31.933-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.259 seconds
+[2023-03-22T14:54:45.039-0400] {processor.py:153} INFO - Started process (PID=69643) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:54:45.042-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:54:45.042-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:54:45.042-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:54:45.070-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:54:45.304-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:54:45.304-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:54:45.311-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:54:45.311-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:54:45.318-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.279 seconds
+[2023-03-22T14:55:27.343-0400] {processor.py:153} INFO - Started process (PID=69710) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:55:27.345-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:55:27.346-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:55:27.346-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:55:27.371-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:55:27.583-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:55:27.583-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:55:27.590-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:55:27.590-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:55:27.597-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.254 seconds
+[2023-03-22T14:56:06.788-0400] {processor.py:153} INFO - Started process (PID=69774) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:06.791-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:56:06.791-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:06.791-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:06.818-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:07.042-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:07.042-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:56:07.049-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:07.049-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:56:07.057-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.269 seconds
+[2023-03-22T14:56:47.175-0400] {processor.py:153} INFO - Started process (PID=69835) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:47.178-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:56:47.178-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:47.178-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:47.205-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:56:47.420-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:47.420-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:56:47.428-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:47.428-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:56:47.435-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.261 seconds
+[2023-03-22T14:57:28.061-0400] {processor.py:153} INFO - Started process (PID=69898) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:57:28.063-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:57:28.063-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:57:28.063-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:57:28.090-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:57:28.309-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:57:28.309-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:57:28.317-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:57:28.316-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:57:28.324-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.263 seconds
+[2023-03-22T14:58:09.698-0400] {processor.py:153} INFO - Started process (PID=69965) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:09.701-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:58:09.702-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:09.702-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:09.730-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:09.952-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:09.952-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:58:09.961-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:09.961-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:58:09.968-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.270 seconds
+[2023-03-22T14:58:53.763-0400] {processor.py:153} INFO - Started process (PID=70033) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:53.766-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:58:53.766-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:53.766-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:53.794-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:58:54.039-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:54.038-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:58:54.046-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:54.046-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:58:54.054-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.292 seconds
+[2023-03-22T14:59:36.851-0400] {processor.py:153} INFO - Started process (PID=70103) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:59:36.854-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T14:59:36.854-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:59:36.854-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:59:36.888-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T14:59:37.124-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:59:37.123-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T14:59:37.131-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:59:37.131-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T14:59:37.140-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.290 seconds
+[2023-03-22T15:00:19.725-0400] {processor.py:153} INFO - Started process (PID=70170) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:00:19.728-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:00:19.728-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:00:19.728-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:00:19.756-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:00:19.981-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:00:19.981-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:00:19.989-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:00:19.989-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:00:19.997-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.271 seconds
+[2023-03-22T15:01:03.316-0400] {processor.py:153} INFO - Started process (PID=70238) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:03.318-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:01:03.318-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:03.318-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:03.344-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:03.598-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:03.597-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:01:03.605-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:03.605-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:01:03.613-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.297 seconds
+[2023-03-22T15:01:46.459-0400] {processor.py:153} INFO - Started process (PID=70309) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:46.461-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:01:46.462-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:46.462-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:46.488-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:01:46.707-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:46.707-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:01:46.714-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:46.714-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:01:46.721-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.263 seconds
+[2023-03-22T15:02:29.226-0400] {processor.py:153} INFO - Started process (PID=70377) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:02:29.228-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:02:29.228-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:02:29.228-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:02:29.256-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:02:29.472-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:02:29.472-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:02:29.480-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:02:29.480-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:02:29.487-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.262 seconds
+[2023-03-22T15:03:12.905-0400] {processor.py:153} INFO - Started process (PID=70444) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:12.907-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:03:12.908-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:12.908-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:12.947-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:13.171-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:13.171-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:03:13.178-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:13.178-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:03:13.186-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.282 seconds
+[2023-03-22T15:03:55.671-0400] {processor.py:153} INFO - Started process (PID=70533) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:55.674-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:03:55.674-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:55.674-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:55.701-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:03:55.916-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:55.915-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:03:55.923-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:55.923-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:03:55.930-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.259 seconds
+[2023-03-22T15:04:34.489-0400] {processor.py:153} INFO - Started process (PID=70594) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:04:34.492-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:04:34.492-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:34.492-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:04:34.519-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:04:34.734-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:34.734-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:04:34.741-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:34.741-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:04:34.749-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.260 seconds
+[2023-03-22T15:05:14.364-0400] {processor.py:153} INFO - Started process (PID=70660) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:14.367-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:05:14.367-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:14.367-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:14.397-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:14.626-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:14.626-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:05:14.634-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:14.634-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:05:14.641-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.278 seconds
+[2023-03-22T15:05:56.840-0400] {processor.py:153} INFO - Started process (PID=70730) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:56.844-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:05:56.844-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:56.844-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:56.870-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:05:57.081-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:57.081-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:05:57.088-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:57.088-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:05:57.095-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.256 seconds
+[2023-03-22T15:48:26.502-0400] {processor.py:153} INFO - Started process (PID=73419) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:48:26.505-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:48:26.505-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:48:26.505-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:48:26.537-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:48:26.765-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:48:26.765-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:48:26.772-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:48:26.772-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:48:26.779-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.277 seconds
+[2023-03-22T15:49:03.127-0400] {processor.py:153} INFO - Started process (PID=73465) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:49:03.130-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:49:03.130-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:49:03.130-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:49:03.163-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:49:03.394-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:49:03.393-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:49:03.402-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:49:03.401-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:49:03.409-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.282 seconds
+[2023-03-22T15:50:18.595-0400] {processor.py:153} INFO - Started process (PID=73548) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:50:18.599-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:50:18.599-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:50:18.599-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:50:18.633-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:50:18.928-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:50:18.928-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:50:18.936-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:50:18.936-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:50:18.944-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.350 seconds
+[2023-03-22T15:51:58.602-0400] {processor.py:153} INFO - Started process (PID=73655) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:51:58.606-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:51:58.606-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:51:58.606-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:51:58.655-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:51:58.936-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:51:58.935-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:51:58.947-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:51:58.947-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:51:58.954-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.353 seconds
+[2023-03-22T15:58:24.292-0400] {processor.py:153} INFO - Started process (PID=74043) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:58:24.296-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T15:58:24.296-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:58:24.296-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:58:24.466-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T15:58:24.952-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:58:24.952-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:58:24.965-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:58:24.965-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-19T00:00:00+00:00, run_after=2023-03-20T00:00:00+00:00
+[2023-03-22T15:58:24.975-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.683 seconds
+[2023-03-22T16:14:45.427-0400] {processor.py:153} INFO - Started process (PID=74602) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:14:45.439-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:14:45.439-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:14:45.439-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:14:45.469-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:14:45.868-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:14:45.868-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:14:45.875-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:14:45.875-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-20T00:00:00+00:00, run_after=2023-03-21T00:00:00+00:00
+[2023-03-22T16:14:45.887-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.463 seconds
+[2023-03-22T16:15:48.499-0400] {processor.py:153} INFO - Started process (PID=74672) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:15:48.501-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:15:48.502-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:15:48.502-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:15:48.533-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:15:49.034-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:15:49.033-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:15:49.041-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:15:49.041-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-21T00:00:00+00:00, run_after=2023-03-22T00:00:00+00:00
+[2023-03-22T16:15:49.056-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.557 seconds
+[2023-03-22T16:17:46.430-0400] {processor.py:153} INFO - Started process (PID=74803) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:46.433-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:17:46.433-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:46.433-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:46.466-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:46.874-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:46.874-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:17:46.882-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:46.882-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:17:46.903-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.474 seconds
+[2023-03-22T16:17:59.223-0400] {processor.py:153} INFO - Started process (PID=74822) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:59.226-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:17:59.226-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:59.226-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:59.259-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:17:59.761-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:59.761-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:17:59.769-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:17:59.768-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:17:59.775-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.552 seconds
+[2023-03-22T16:20:45.782-0400] {processor.py:153} INFO - Started process (PID=75019) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:20:45.785-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:20:45.785-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:20:45.785-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:20:45.824-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:20:46.424-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:20:46.424-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:20:46.432-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:20:46.431-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:20:46.438-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.656 seconds
+[2023-03-22T16:25:39.227-0400] {processor.py:153} INFO - Started process (PID=75322) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:25:39.231-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:25:39.231-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:25:39.231-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:25:39.271-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:25:39.814-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:25:39.814-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:25:39.821-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:25:39.821-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:25:39.831-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.605 seconds
+[2023-03-22T16:26:04.579-0400] {processor.py:153} INFO - Started process (PID=75353) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:26:04.587-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:26:04.587-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:04.587-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:26:04.621-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:26:05.320-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:05.320-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:26:05.328-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:05.328-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:26:05.337-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.759 seconds
+[2023-03-22T16:28:38.950-0400] {processor.py:153} INFO - Started process (PID=75543) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:28:38.955-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:28:38.956-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:28:38.956-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:28:38.986-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:28:39.641-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:28:39.641-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:28:39.648-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:28:39.648-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:28:39.656-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.708 seconds
+[2023-03-22T16:30:20.451-0400] {processor.py:153} INFO - Started process (PID=75657) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:30:20.457-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:30:20.457-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:30:20.457-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:30:20.563-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:30:21.282-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:30:21.282-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:30:21.290-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:30:21.290-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:30:21.297-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.846 seconds
+[2023-03-22T16:34:02.742-0400] {processor.py:153} INFO - Started process (PID=75910) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:34:02.745-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:34:02.745-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:34:02.745-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:34:02.779-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:34:03.526-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:34:03.526-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:34:03.555-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:34:03.555-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:34:03.562-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.821 seconds
+[2023-03-22T16:35:10.971-0400] {processor.py:153} INFO - Started process (PID=75980) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:10.975-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:35:10.975-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:10.975-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:11.008-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:11.915-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:11.915-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:35:11.925-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:11.925-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:35:11.932-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.961 seconds
+[2023-03-22T16:35:27.516-0400] {processor.py:153} INFO - Started process (PID=76005) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:27.518-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:35:27.519-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:27.519-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:27.591-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:35:28.378-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:28.378-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:35:28.386-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:35:28.385-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:35:28.414-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.899 seconds
+[2023-03-22T16:38:35.760-0400] {processor.py:153} INFO - Started process (PID=76203) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:38:35.764-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T16:38:35.764-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:38:35.764-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:38:35.796-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T16:38:36.538-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:38:36.537-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:38:36.545-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:38:36.545-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:38:36.611-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.851 seconds
+[2023-03-22T18:30:21.205-0400] {processor.py:153} INFO - Started process (PID=1087) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T18:30:21.207-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T18:30:21.207-0400] {logging_mixin.py:137} INFO - [2023-03-22T18:30:21.207-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T18:30:21.258-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T18:30:21.463-0400] {logging_mixin.py:137} INFO - [2023-03-22T18:30:21.463-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T18:30:21.470-0400] {logging_mixin.py:137} INFO - [2023-03-22T18:30:21.470-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T18:30:21.476-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.272 seconds
+[2023-03-22T19:10:50.763-0400] {processor.py:153} INFO - Started process (PID=3719) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:10:50.765-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:10:50.765-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:10:50.765-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:10:50.798-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:10:50.789-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:10:50.800-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:10:50.987-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.225 seconds
+[2023-03-22T19:12:09.733-0400] {processor.py:153} INFO - Started process (PID=3852) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:09.735-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:12:09.735-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:09.735-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:09.766-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:09.758-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:12:09.768-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:09.952-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.219 seconds
+[2023-03-22T19:12:54.592-0400] {processor.py:153} INFO - Started process (PID=3920) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:54.595-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:12:54.595-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:54.595-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:54.625-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:54.618-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:12:54.627-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:12:54.810-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.218 seconds
+[2023-03-22T19:13:36.315-0400] {processor.py:153} INFO - Started process (PID=3988) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:36.317-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:13:36.317-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:36.317-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:36.348-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:36.341-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:13:36.350-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:36.535-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.220 seconds
+[2023-03-22T19:13:49.887-0400] {processor.py:153} INFO - Started process (PID=4010) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:49.889-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:13:49.889-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:49.889-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:49.920-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:49.912-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:13:49.923-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:13:50.108-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.222 seconds
+[2023-03-22T19:20:47.115-0400] {processor.py:153} INFO - Started process (PID=4494) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:20:47.117-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:20:47.117-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:20:47.117-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:20:47.150-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:20:47.142-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:20:47.152-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:20:47.341-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.226 seconds
+[2023-03-22T19:21:54.267-0400] {processor.py:153} INFO - Started process (PID=4587) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:21:54.272-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:21:54.272-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:21:54.272-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:21:54.307-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:21:54.299-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:21:54.309-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:21:54.494-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.228 seconds
+[2023-03-22T19:23:43.548-0400] {processor.py:153} INFO - Started process (PID=4703) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:43.551-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:23:43.551-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:43.551-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:43.594-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:43.585-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:23:43.596-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:43.782-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.235 seconds
+[2023-03-22T19:23:47.553-0400] {processor.py:153} INFO - Started process (PID=4715) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:47.556-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:23:47.556-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:47.556-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:47.588-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:47.580-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:23:47.590-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:23:47.787-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.234 seconds
+[2023-03-22T19:25:00.875-0400] {processor.py:153} INFO - Started process (PID=4828) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:00.878-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:25:00.878-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:00.878-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:00.912-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:00.904-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:25:00.914-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:01.099-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.224 seconds
+[2023-03-22T19:25:43.483-0400] {processor.py:153} INFO - Started process (PID=4893) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:43.485-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:25:43.485-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:43.485-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:43.519-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:43.510-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:25:43.521-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:25:43.704-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.222 seconds
+[2023-03-22T19:26:24.811-0400] {processor.py:153} INFO - Started process (PID=4956) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:26:24.813-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:26:24.814-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:26:24.814-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:26:24.846-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:26:24.837-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:26:24.848-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:26:25.034-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.223 seconds
+[2023-03-22T19:27:06.556-0400] {processor.py:153} INFO - Started process (PID=5023) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:27:06.559-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:27:06.560-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:27:06.560-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:27:06.597-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:27:06.588-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:27:06.600-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:27:06.789-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.233 seconds
+[2023-03-22T19:37:26.329-0400] {processor.py:153} INFO - Started process (PID=5708) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:37:26.333-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:37:26.333-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:37:26.333-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:37:26.375-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:37:26.365-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/cities.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/cities.py", line 68, in <module>
+    python_callable=get_cities(),
+TypeError: get_cities() missing 2 required positional arguments: 'states' and 'cities'
+[2023-03-22T19:37:26.378-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:37:26.753-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.425 seconds
+[2023-03-22T19:58:20.898-0400] {processor.py:153} INFO - Started process (PID=7106) to work on /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:58:20.900-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/cities.py for tasks to queue
+[2023-03-22T19:58:20.901-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:58:20.901-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:58:20.936-0400] {processor.py:753} INFO - DAG(s) dict_keys(['my_api_connection']) retrieved from /Users/sunanda/airflow/dags/cities.py
+[2023-03-22T19:58:21.208-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:58:21.208-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:58:21.217-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:58:21.217-0400] {dag.py:3437} INFO - Setting next_dagrun for my_api_connection to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:58:21.226-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/cities.py took 0.329 seconds

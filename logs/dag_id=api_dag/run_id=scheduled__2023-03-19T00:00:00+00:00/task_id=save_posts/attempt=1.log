@@ -1,0 +1,34 @@
+[2023-03-21T20:23:09.733-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.save_posts scheduled__2023-03-19T00:00:00+00:00 [queued]>
+[2023-03-21T20:23:09.739-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.save_posts scheduled__2023-03-19T00:00:00+00:00 [queued]>
+[2023-03-21T20:23:09.739-0400] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-21T20:23:09.739-0400] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-21T20:23:09.739-0400] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-21T20:23:09.743-0400] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): save_posts> on 2023-03-19 00:00:00+00:00
+[2023-03-21T20:23:09.745-0400] {standard_task_runner.py:55} INFO - Started process 42551 to run task
+[2023-03-21T20:23:09.747-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'api_dag', 'save_posts', 'scheduled__2023-03-19T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/weatherapi_test.py', '--cfg-path', '/var/folders/71/zhs_yc7n05l7c97rnhn92bb80000gn/T/tmpurszyxe5']
+[2023-03-21T20:23:09.748-0400] {standard_task_runner.py:83} INFO - Job 10: Subtask save_posts
+[2023-03-21T20:23:09.767-0400] {task_command.py:388} INFO - Running <TaskInstance: api_dag.save_posts scheduled__2023-03-19T00:00:00+00:00 [running]> on host sunandas-laptop.hsd1.ga.comcast.net
+[2023-03-21T20:23:09.785-0400] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=save_posts
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-19T00:00:00+00:00
+[2023-03-21T20:23:09.786-0400] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: xcom_pull() got an unexpected keyword argument 'task_id'
+[2023-03-21T20:23:09.798-0400] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=api_dag, task_id=save_posts, execution_date=20230319T000000, start_date=20230322T002309, end_date=20230322T002309
+[2023-03-21T20:23:09.802-0400] {standard_task_runner.py:100} ERROR - Failed to execute job 10 for task save_posts (xcom_pull() got an unexpected keyword argument 'task_id'; 42551)
+[2023-03-21T20:23:09.807-0400] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-21T20:23:09.812-0400] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

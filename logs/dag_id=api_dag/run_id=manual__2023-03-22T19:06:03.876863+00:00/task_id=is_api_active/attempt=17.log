@@ -1,0 +1,28 @@
+[2023-03-22T19:23:44.796-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [queued]>
+[2023-03-22T19:23:44.801-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [queued]>
+[2023-03-22T19:23:44.801-0400] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-22T19:23:44.801-0400] {taskinstance.py:1280} INFO - Starting attempt 17 of 1
+[2023-03-22T19:23:44.801-0400] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-22T19:23:44.805-0400] {taskinstance.py:1300} INFO - Executing <Task(HttpSensor): is_api_active> on 2023-03-22 19:06:03.876863+00:00
+[2023-03-22T19:23:44.807-0400] {standard_task_runner.py:55} INFO - Started process 4708 to run task
+[2023-03-22T19:23:44.810-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/weatherapi_test.py', '--cfg-path', '/var/folders/71/zhs_yc7n05l7c97rnhn92bb80000gn/T/tmpbmpwdidw']
+[2023-03-22T19:23:44.811-0400] {standard_task_runner.py:83} INFO - Job 69: Subtask is_api_active
+[2023-03-22T19:23:44.837-0400] {task_command.py:388} INFO - Running <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [running]> on host sunandas-laptop.hsd1.ga.comcast.net
+[2023-03-22T19:23:44.855-0400] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=is_api_active
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-22T19:06:03.876863+00:00
+AIRFLOW_CTX_TRY_NUMBER=17
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-22T19:06:03.876863+00:00
+[2023-03-22T19:23:44.855-0400] {http.py:122} INFO - Poking: weather?q=Monroe,GA,US&units=standard&appid=94ca56afa3eee20f7100985fdfe682aa
+[2023-03-22T19:23:44.858-0400] {base.py:73} INFO - Using connection ID 'my_api_connection' for task execution.
+[2023-03-22T19:37:29.384-0400] {local_task_job.py:255} WARNING - Recorded pid 5715 does not match the current pid 4708
+[2023-03-22T19:37:29.389-0400] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 4708. PIDs of all processes in the group: [4708]
+[2023-03-22T19:37:29.389-0400] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 4708
+[2023-03-22T19:38:29.407-0400] {process_utils.py:147} WARNING - process psutil.Process(pid=4708, name='Python', status='running', started='19:23:44') did not respond to SIGTERM. Trying SIGKILL
+[2023-03-22T19:38:29.408-0400] {process_utils.py:84} INFO - Sending the signal Signals.SIGKILL to group 4708
+[2023-03-22T19:38:29.412-0400] {process_utils.py:79} INFO - Process psutil.Process(pid=4708, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='19:23:44') (4708) terminated with exit code Negsignal.SIGKILL
+[2023-03-22T19:38:29.413-0400] {standard_task_runner.py:168} ERROR - Job 73 was killed before it finished (likely due to running out of memory)

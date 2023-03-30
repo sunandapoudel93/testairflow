@@ -1,0 +1,24 @@
+[2023-03-24T00:09:10.090-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [None]>
+[2023-03-24T00:09:10.097-0400] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [None]>
+[2023-03-24T00:09:10.097-0400] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-24T00:09:10.097-0400] {taskinstance.py:1280} INFO - Starting attempt 20 of 1
+[2023-03-24T00:09:10.097-0400] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-24T00:09:10.102-0400] {taskinstance.py:1300} INFO - Executing <Task(HttpSensor): is_api_active> on 2023-03-22 19:06:03.876863+00:00
+[2023-03-24T00:09:10.110-0400] {standard_task_runner.py:55} INFO - Started process 74730 to run task
+[2023-03-24T00:09:10.119-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'manual__2023-03-22T19:06:03.876863+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/weatherapi_test.py', '--cfg-path', '/var/folders/71/zhs_yc7n05l7c97rnhn92bb80000gn/T/tmp8ggh3az4']
+[2023-03-24T00:09:10.120-0400] {standard_task_runner.py:83} INFO - Job 84: Subtask is_api_active
+[2023-03-24T00:09:10.146-0400] {task_command.py:388} INFO - Running <TaskInstance: api_dag.is_api_active manual__2023-03-22T19:06:03.876863+00:00 [running]> on host Sunandas-Laptop.hsd1.ga.comcast.net
+[2023-03-24T00:09:10.193-0400] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=is_api_active
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-22T19:06:03.876863+00:00
+AIRFLOW_CTX_TRY_NUMBER=20
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-22T19:06:03.876863+00:00
+[2023-03-24T00:09:10.194-0400] {http.py:122} INFO - Poking: weather?q=Atlanta,Georgia,US&units=standard&appid=94ca56afa3eee20f7100985fdfe682aa
+[2023-03-24T00:09:10.200-0400] {base.py:73} INFO - Using connection ID 'my_api_connection' for task execution.
+[2023-03-24T00:09:11.076-0400] {local_task_job.py:112} ERROR - Received SIGTERM. Terminating subprocesses
+[2023-03-24T00:09:11.079-0400] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 74730. PIDs of all processes in the group: [74730]
+[2023-03-24T00:09:11.080-0400] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 74730

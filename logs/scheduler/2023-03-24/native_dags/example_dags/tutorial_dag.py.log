@@ -1,0 +1,987 @@
+[2023-03-24T14:14:19.549-0400] {processor.py:153} INFO - Started process (PID=20745) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:14:19.552-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:14:19.552-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:14:19.552-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:14:19.568-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:14:19.860-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:14:19.860-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:14:19.867-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:14:19.867-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:14:19.877-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.328 seconds
+[2023-03-24T14:15:39.313-0400] {processor.py:153} INFO - Started process (PID=20905) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:15:39.317-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:15:39.317-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:15:39.317-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:15:39.333-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:15:39.639-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:15:39.639-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:15:39.646-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:15:39.646-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:15:39.654-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.341 seconds
+[2023-03-24T14:16:28.228-0400] {processor.py:153} INFO - Started process (PID=20988) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:16:28.232-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:16:28.232-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:16:28.232-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:16:28.246-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:16:28.515-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:16:28.514-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:16:28.521-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:16:28.521-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:16:28.528-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.299 seconds
+[2023-03-24T14:17:16.294-0400] {processor.py:153} INFO - Started process (PID=21069) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:17:16.296-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:17:16.296-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:17:16.296-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:17:16.311-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:17:16.582-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:17:16.582-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:17:16.589-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:17:16.589-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:17:16.596-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.302 seconds
+[2023-03-24T14:18:03.710-0400] {processor.py:153} INFO - Started process (PID=21147) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:03.713-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:18:03.713-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:03.713-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:03.729-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:04.032-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:04.032-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:18:04.038-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:04.038-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:18:04.045-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.335 seconds
+[2023-03-24T14:18:51.108-0400] {processor.py:153} INFO - Started process (PID=21226) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:51.111-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:18:51.112-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:51.112-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:51.126-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:18:51.393-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:51.393-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:18:51.400-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:18:51.399-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:18:51.407-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.298 seconds
+[2023-03-24T14:19:38.200-0400] {processor.py:153} INFO - Started process (PID=21305) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:19:38.203-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:19:38.203-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:19:38.203-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:19:38.218-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:19:38.489-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:19:38.489-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:19:38.496-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:19:38.496-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:19:38.503-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.303 seconds
+[2023-03-24T14:20:24.105-0400] {processor.py:153} INFO - Started process (PID=21396) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:20:24.109-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:20:24.109-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:20:24.109-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:20:24.123-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:20:24.387-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:20:24.387-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:20:24.394-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:20:24.394-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:20:24.400-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.295 seconds
+[2023-03-24T14:21:11.164-0400] {processor.py:153} INFO - Started process (PID=21475) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:11.167-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:21:11.167-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:11.167-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:11.182-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:11.453-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:11.453-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:21:11.460-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:11.460-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:21:11.467-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.303 seconds
+[2023-03-24T14:21:56.491-0400] {processor.py:153} INFO - Started process (PID=21558) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:56.493-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:21:56.493-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:56.493-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:56.508-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:21:56.778-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:56.778-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:21:56.784-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:21:56.784-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:21:56.791-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T14:22:42.648-0400] {processor.py:153} INFO - Started process (PID=21661) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:22:42.650-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:22:42.650-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:22:42.650-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:22:42.665-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:22:42.944-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:22:42.944-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:22:42.951-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:22:42.951-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:22:42.960-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.313 seconds
+[2023-03-24T14:23:32.661-0400] {processor.py:153} INFO - Started process (PID=21743) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:23:32.664-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:23:32.665-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:23:32.665-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:23:32.680-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:23:32.962-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:23:32.962-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:23:32.969-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:23:32.969-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:23:32.976-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.315 seconds
+[2023-03-24T14:24:24.049-0400] {processor.py:153} INFO - Started process (PID=21822) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:24:24.052-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:24:24.052-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:24:24.052-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:24:24.066-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:24:24.329-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:24:24.329-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:24:24.336-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:24:24.336-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:24:24.342-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.294 seconds
+[2023-03-24T14:25:10.552-0400] {processor.py:153} INFO - Started process (PID=21896) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:10.555-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:25:10.555-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:10.555-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:10.569-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:10.834-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:10.834-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:25:10.841-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:10.841-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:25:10.848-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.296 seconds
+[2023-03-24T14:25:59.015-0400] {processor.py:153} INFO - Started process (PID=21975) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:59.018-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:25:59.018-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:59.018-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:59.034-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:25:59.306-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:59.306-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:25:59.313-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:25:59.313-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:25:59.320-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T14:26:48.473-0400] {processor.py:153} INFO - Started process (PID=22061) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:26:48.477-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:26:48.477-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:26:48.477-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:26:48.491-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:26:48.759-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:26:48.758-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:26:48.765-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:26:48.765-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:26:48.772-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.299 seconds
+[2023-03-24T14:27:35.068-0400] {processor.py:153} INFO - Started process (PID=22146) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:27:35.070-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:27:35.070-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:27:35.070-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:27:35.084-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:27:35.354-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:27:35.354-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:27:35.361-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:27:35.361-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:27:35.368-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T14:28:21.149-0400] {processor.py:153} INFO - Started process (PID=22228) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:28:21.152-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:28:21.152-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:28:21.152-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:28:21.167-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:28:21.431-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:28:21.431-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:28:21.438-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:28:21.438-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:28:21.444-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.296 seconds
+[2023-03-24T14:29:09.028-0400] {processor.py:153} INFO - Started process (PID=22303) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:09.030-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:29:09.030-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:09.030-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:09.045-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:09.319-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:09.319-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:29:09.326-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:09.326-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:29:09.333-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T14:29:56.299-0400] {processor.py:153} INFO - Started process (PID=22387) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:56.302-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:29:56.302-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:56.302-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:56.316-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:29:56.588-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:56.588-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:29:56.595-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:29:56.595-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:29:56.602-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.303 seconds
+[2023-03-24T14:30:46.620-0400] {processor.py:153} INFO - Started process (PID=22468) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:30:46.623-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:30:46.623-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:30:46.623-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:30:46.639-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:30:46.923-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:30:46.923-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:30:46.930-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:30:46.930-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:30:46.937-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.317 seconds
+[2023-03-24T14:31:36.334-0400] {processor.py:153} INFO - Started process (PID=22551) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:31:36.337-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:31:36.337-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:31:36.337-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:31:36.354-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:31:36.655-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:31:36.655-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:31:36.662-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:31:36.662-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:31:36.670-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.336 seconds
+[2023-03-24T14:32:27.967-0400] {processor.py:153} INFO - Started process (PID=22714) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:32:27.969-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:32:27.970-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:32:27.970-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:32:27.989-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:32:28.331-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:32:28.331-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:32:28.338-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:32:28.338-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:32:28.346-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.379 seconds
+[2023-03-24T14:33:17.854-0400] {processor.py:153} INFO - Started process (PID=22837) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:33:17.857-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:33:17.858-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:33:17.858-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:33:17.872-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:33:18.144-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:33:18.144-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:33:18.151-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:33:18.150-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:33:18.157-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.304 seconds
+[2023-03-24T14:34:06.922-0400] {processor.py:153} INFO - Started process (PID=22930) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:06.924-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:34:06.924-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:06.924-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:06.938-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:07.209-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:07.209-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:34:07.216-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:07.216-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:34:07.222-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T14:34:54.525-0400] {processor.py:153} INFO - Started process (PID=23059) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:54.527-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:34:54.528-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:54.528-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:54.543-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:34:54.820-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:54.820-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:34:54.827-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:34:54.827-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:34:54.834-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.309 seconds
+[2023-03-24T14:35:41.587-0400] {processor.py:153} INFO - Started process (PID=23148) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:35:41.590-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:35:41.590-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:35:41.590-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:35:41.605-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:35:41.893-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:35:41.892-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:35:41.900-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:35:41.900-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:35:41.908-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.321 seconds
+[2023-03-24T14:36:26.825-0400] {processor.py:153} INFO - Started process (PID=23233) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:36:26.827-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:36:26.827-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:36:26.827-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:36:26.841-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:36:27.117-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:36:27.117-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:36:27.123-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:36:27.123-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:36:27.130-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.306 seconds
+[2023-03-24T14:37:14.298-0400] {processor.py:153} INFO - Started process (PID=23319) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:37:14.300-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:37:14.300-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:37:14.300-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:37:14.316-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:37:14.611-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:37:14.611-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:37:14.618-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:37:14.618-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:37:14.625-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.327 seconds
+[2023-03-24T14:38:03.723-0400] {processor.py:153} INFO - Started process (PID=23405) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:03.726-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:38:03.726-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:03.726-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:03.741-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:04.046-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:04.046-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:38:04.054-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:04.054-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:38:04.062-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.338 seconds
+[2023-03-24T14:38:55.874-0400] {processor.py:153} INFO - Started process (PID=23495) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:55.877-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:38:55.877-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:55.877-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:55.892-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:38:56.207-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:56.207-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:38:56.215-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:38:56.215-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:38:56.222-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.348 seconds
+[2023-03-24T14:39:49.986-0400] {processor.py:153} INFO - Started process (PID=23582) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:39:49.989-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:39:49.989-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:39:49.989-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:39:50.004-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:39:50.298-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:39:50.298-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:39:50.305-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:39:50.305-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:39:50.311-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.325 seconds
+[2023-03-24T14:40:40.002-0400] {processor.py:153} INFO - Started process (PID=23661) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:40:40.004-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:40:40.004-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:40:40.004-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:40:40.019-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:40:40.291-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:40:40.291-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:40:40.298-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:40:40.298-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:40:40.305-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.303 seconds
+[2023-03-24T14:41:26.527-0400] {processor.py:153} INFO - Started process (PID=23738) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:41:26.529-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:41:26.529-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:41:26.529-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:41:26.545-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:41:26.824-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:41:26.824-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:41:26.831-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:41:26.830-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:41:26.838-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.312 seconds
+[2023-03-24T14:42:13.050-0400] {processor.py:153} INFO - Started process (PID=23839) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:42:13.054-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:42:13.054-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:42:13.054-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:42:13.068-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:42:13.342-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:42:13.342-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:42:13.348-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:42:13.348-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:42:13.355-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T14:43:01.998-0400] {processor.py:153} INFO - Started process (PID=23961) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:02.001-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:43:02.001-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:02.001-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:02.016-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:02.305-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:02.305-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:43:02.312-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:02.312-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:43:02.319-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.321 seconds
+[2023-03-24T14:43:47.488-0400] {processor.py:153} INFO - Started process (PID=24045) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:47.491-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:43:47.492-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:47.492-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:47.506-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:43:47.780-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:47.780-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:43:47.787-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:43:47.787-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:43:47.793-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T14:44:31.947-0400] {processor.py:153} INFO - Started process (PID=24117) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:44:31.949-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:44:31.950-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:44:31.950-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:44:31.964-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:44:32.235-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:44:32.235-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:44:32.242-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:44:32.241-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:44:32.248-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T14:45:19.465-0400] {processor.py:153} INFO - Started process (PID=24191) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:45:19.468-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:45:19.468-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:45:19.468-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:45:19.482-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:45:19.753-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:45:19.753-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:45:19.759-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:45:19.759-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:45:19.766-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T14:46:08.827-0400] {processor.py:153} INFO - Started process (PID=24269) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:08.830-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:46:08.830-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:08.830-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:08.844-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:09.112-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:09.112-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:46:09.118-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:09.118-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:46:09.125-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.298 seconds
+[2023-03-24T14:46:55.463-0400] {processor.py:153} INFO - Started process (PID=24348) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:55.466-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:46:55.466-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:55.466-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:55.481-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:46:55.755-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:55.755-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:46:55.762-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:46:55.762-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:46:55.769-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T14:47:45.212-0400] {processor.py:153} INFO - Started process (PID=24443) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:47:45.214-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:47:45.215-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:47:45.215-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:47:45.230-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:47:45.514-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:47:45.514-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:47:45.521-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:47:45.521-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:47:45.527-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.316 seconds
+[2023-03-24T14:48:33.122-0400] {processor.py:153} INFO - Started process (PID=24526) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:48:33.124-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:48:33.124-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:48:33.124-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:48:33.140-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:48:33.428-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:48:33.428-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:48:33.435-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:48:33.434-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:48:33.441-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.320 seconds
+[2023-03-24T14:49:22.713-0400] {processor.py:153} INFO - Started process (PID=24606) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:49:22.715-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:49:22.715-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:49:22.715-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:49:22.730-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:49:23.000-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:49:23.000-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:49:23.006-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:49:23.006-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:49:23.013-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T14:50:06.562-0400] {processor.py:153} INFO - Started process (PID=24676) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:06.564-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:50:06.565-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:06.565-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:06.578-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:06.847-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:06.847-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:50:06.853-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:06.853-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:50:06.860-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.298 seconds
+[2023-03-24T14:50:52.702-0400] {processor.py:153} INFO - Started process (PID=24749) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:52.705-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:50:52.705-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:52.705-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:52.720-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:50:52.993-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:52.993-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:50:52.999-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:50:52.999-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:50:53.006-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.304 seconds
+[2023-03-24T14:51:38.890-0400] {processor.py:153} INFO - Started process (PID=24825) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:51:38.892-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:51:38.892-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:51:38.892-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:51:38.906-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:51:39.176-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:51:39.176-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:51:39.182-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:51:39.182-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:51:39.188-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.298 seconds
+[2023-03-24T14:52:27.275-0400] {processor.py:153} INFO - Started process (PID=24901) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:52:27.277-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:52:27.277-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:52:27.277-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:52:27.291-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:52:27.570-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:52:27.570-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:52:27.577-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:52:27.577-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:52:27.583-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.309 seconds
+[2023-03-24T14:53:14.892-0400] {processor.py:153} INFO - Started process (PID=24975) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:14.895-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:53:14.896-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:14.896-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:14.910-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:15.179-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:15.179-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:53:15.186-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:15.186-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:53:15.192-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T14:53:58.575-0400] {processor.py:153} INFO - Started process (PID=25046) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:58.578-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:53:58.578-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:58.578-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:58.592-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:53:58.861-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:58.861-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:53:58.868-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:53:58.868-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:53:58.874-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T14:55:29.107-0400] {processor.py:153} INFO - Started process (PID=25193) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:55:29.110-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T14:55:29.110-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:55:29.110-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:55:29.124-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T14:55:29.392-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:55:29.392-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T14:55:29.399-0400] {logging_mixin.py:137} INFO - [2023-03-24T14:55:29.399-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T14:55:29.405-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.299 seconds
+[2023-03-24T15:06:03.105-0400] {processor.py:153} INFO - Started process (PID=25283) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:03.108-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:06:03.108-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:03.108-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:03.123-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:03.406-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:03.406-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:06:03.413-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:03.413-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:06:03.420-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.316 seconds
+[2023-03-24T15:06:50.371-0400] {processor.py:153} INFO - Started process (PID=25366) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:50.375-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:06:50.375-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:50.375-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:50.389-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:06:50.659-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:50.659-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:06:50.666-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:06:50.666-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:06:50.672-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T15:07:36.565-0400] {processor.py:153} INFO - Started process (PID=25441) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:07:36.567-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:07:36.568-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:07:36.568-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:07:36.582-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:07:36.854-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:07:36.854-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:07:36.860-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:07:36.860-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:07:36.867-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.302 seconds
+[2023-03-24T15:08:23.652-0400] {processor.py:153} INFO - Started process (PID=25515) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:08:23.654-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:08:23.654-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:08:23.654-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:08:23.668-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:08:23.939-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:08:23.938-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:08:23.945-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:08:23.945-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:08:23.952-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T15:15:02.807-0400] {processor.py:153} INFO - Started process (PID=25602) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:02.810-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:15:02.811-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:02.810-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:02.824-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:03.093-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:03.093-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:15:03.100-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:03.100-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:15:03.107-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T15:15:56.222-0400] {processor.py:153} INFO - Started process (PID=25686) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:56.224-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:15:56.225-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:56.225-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:56.239-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:15:56.516-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:56.516-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:15:56.522-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:15:56.522-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:15:56.529-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.307 seconds
+[2023-03-24T15:16:41.793-0400] {processor.py:153} INFO - Started process (PID=25758) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:16:41.796-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:16:41.796-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:16:41.796-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:16:41.811-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:16:42.084-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:16:42.084-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:16:42.090-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:16:42.090-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:16:42.101-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.308 seconds
+[2023-03-24T15:17:27.539-0400] {processor.py:153} INFO - Started process (PID=25834) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:17:27.541-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:17:27.541-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:17:27.541-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:17:27.558-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:17:27.879-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:17:27.879-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:17:27.886-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:17:27.886-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:17:27.893-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.355 seconds
+[2023-03-24T15:18:12.978-0400] {processor.py:153} INFO - Started process (PID=25919) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:12.980-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:18:12.980-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:12.980-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:12.994-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:13.264-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:13.264-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:18:13.270-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:13.270-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:18:13.277-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T15:18:59.379-0400] {processor.py:153} INFO - Started process (PID=26001) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:59.382-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:18:59.382-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:59.382-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:59.397-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:18:59.667-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:59.667-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:18:59.674-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:18:59.674-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:18:59.681-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.301 seconds
+[2023-03-24T15:19:47.652-0400] {processor.py:153} INFO - Started process (PID=26078) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:19:47.655-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:19:47.655-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:19:47.655-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:19:47.670-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:19:47.957-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:19:47.957-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:19:47.964-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:19:47.964-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:19:47.971-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.319 seconds
+[2023-03-24T15:20:35.017-0400] {processor.py:153} INFO - Started process (PID=26165) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:20:35.020-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:20:35.020-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:20:35.020-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:20:35.034-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:20:35.303-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:20:35.303-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:20:35.310-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:20:35.310-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:20:35.317-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.300 seconds
+[2023-03-24T15:21:21.600-0400] {processor.py:153} INFO - Started process (PID=26237) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:21:21.603-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:21:21.603-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:21:21.603-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:21:21.617-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:21:21.891-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:21:21.891-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:21:21.897-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:21:21.897-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:21:21.904-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2023-03-24T15:22:12.610-0400] {processor.py:153} INFO - Started process (PID=26324) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:22:12.613-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:22:12.613-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:22:12.613-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:22:12.628-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:22:12.921-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:22:12.921-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:22:12.927-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:22:12.927-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:22:12.935-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.326 seconds
+[2023-03-24T15:23:00.494-0400] {processor.py:153} INFO - Started process (PID=26416) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:00.499-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:23:00.499-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:00.499-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:00.516-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:00.798-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:00.798-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:23:00.804-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:00.804-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:23:00.811-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.317 seconds
+[2023-03-24T15:23:48.119-0400] {processor.py:153} INFO - Started process (PID=26500) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:48.122-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:23:48.122-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:48.122-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:48.137-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:23:48.425-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:48.425-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:23:48.431-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:23:48.431-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:23:48.438-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.320 seconds
+[2023-03-24T15:24:33.686-0400] {processor.py:153} INFO - Started process (PID=26585) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:24:33.688-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:24:33.688-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:24:33.688-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:24:33.702-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:24:33.975-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:24:33.975-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:24:33.981-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:24:33.981-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:24:33.988-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.303 seconds
+[2023-03-24T15:25:19.298-0400] {processor.py:153} INFO - Started process (PID=26655) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:25:19.300-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:25:19.300-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:25:19.300-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:25:19.314-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:25:19.610-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:25:19.610-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:25:19.617-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:25:19.617-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:25:19.625-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.327 seconds
+[2023-03-24T15:26:05.955-0400] {processor.py:153} INFO - Started process (PID=26725) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:05.957-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:26:05.957-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:05.957-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:05.972-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:06.248-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:06.248-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:26:06.254-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:06.254-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:26:06.261-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.306 seconds
+[2023-03-24T15:26:53.787-0400] {processor.py:153} INFO - Started process (PID=26799) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:53.789-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:26:53.790-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:53.790-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:53.804-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:26:54.083-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:54.083-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:26:54.090-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:26:54.090-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:26:54.097-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.310 seconds
+[2023-03-24T15:27:39.432-0400] {processor.py:153} INFO - Started process (PID=26886) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:27:39.435-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:27:39.435-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:27:39.435-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:27:39.451-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:27:39.739-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:27:39.739-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:27:39.746-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:27:39.746-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:27:39.754-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.322 seconds
+[2023-03-24T15:28:25.143-0400] {processor.py:153} INFO - Started process (PID=26955) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:28:25.145-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:28:25.145-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:28:25.145-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:28:25.159-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:28:25.501-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:28:25.501-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:28:25.508-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:28:25.508-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:28:25.516-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.374 seconds
+[2023-03-24T15:29:15.427-0400] {processor.py:153} INFO - Started process (PID=27057) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:29:15.429-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:29:15.430-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:29:15.430-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:29:15.446-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:29:15.756-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:29:15.756-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:29:15.764-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:29:15.764-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:29:15.772-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.345 seconds
+[2023-03-24T15:30:09.861-0400] {processor.py:153} INFO - Started process (PID=27155) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:30:09.864-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T15:30:09.865-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:30:09.864-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:30:09.881-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T15:30:10.193-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:30:10.193-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-24T15:30:10.201-0400] {logging_mixin.py:137} INFO - [2023-03-24T15:30:10.201-0400] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T15:30:10.209-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.348 seconds
+[2023-03-24T18:08:02.982-0400] {processor.py:153} INFO - Started process (PID=30199) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:08:02.985-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:08:02.985-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:08:02.985-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:08:02.999-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:08:03.191-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:08:03.191-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:08:03.197-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:08:03.197-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:08:03.205-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.223 seconds
+[2023-03-24T18:09:13.464-0400] {processor.py:153} INFO - Started process (PID=30325) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:13.466-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:09:13.466-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:13.466-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:13.479-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:13.664-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:13.664-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:09:13.670-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:13.670-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:09:13.677-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:09:53.714-0400] {processor.py:153} INFO - Started process (PID=30391) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:53.716-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:09:53.716-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:53.716-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:53.730-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:09:53.914-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:53.913-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:09:53.920-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:09:53.920-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:09:53.927-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:11:11.123-0400] {processor.py:153} INFO - Started process (PID=30528) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:11.126-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:11:11.126-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:11.126-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:11.141-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:11.326-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:11.326-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:11:11.332-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:11.332-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:11:11.339-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.216 seconds
+[2023-03-24T18:11:51.337-0400] {processor.py:153} INFO - Started process (PID=30604) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:51.340-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:11:51.340-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:51.340-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:51.355-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:11:51.556-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:51.556-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:11:51.562-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:11:51.562-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:11:51.569-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.232 seconds
+[2023-03-24T18:12:30.948-0400] {processor.py:153} INFO - Started process (PID=30686) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:12:30.950-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:12:30.951-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:12:30.951-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:12:30.965-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:12:31.149-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:12:31.148-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:12:31.155-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:12:31.155-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:12:31.161-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:13:41.689-0400] {processor.py:153} INFO - Started process (PID=30802) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:13:41.692-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:13:41.692-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:13:41.692-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:13:41.706-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:13:41.894-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:13:41.894-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:13:41.901-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:13:41.901-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:13:41.908-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.219 seconds
+[2023-03-24T18:14:22.164-0400] {processor.py:153} INFO - Started process (PID=30870) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:14:22.167-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:14:22.167-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:14:22.167-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:14:22.181-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:14:22.375-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:14:22.375-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:14:22.382-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:14:22.382-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:14:22.388-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.224 seconds
+[2023-03-24T18:15:02.484-0400] {processor.py:153} INFO - Started process (PID=30938) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:02.487-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:15:02.487-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:02.487-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:02.501-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:02.700-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:02.700-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:15:02.708-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:02.708-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:15:02.716-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.232 seconds
+[2023-03-24T18:15:43.146-0400] {processor.py:153} INFO - Started process (PID=31002) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:43.148-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:15:43.148-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:43.148-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:43.162-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:15:43.346-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:43.346-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:15:43.352-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:15:43.352-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:15:43.359-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:16:57.125-0400] {processor.py:153} INFO - Started process (PID=31119) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:16:57.127-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:16:57.127-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:16:57.127-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:16:57.140-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:16:57.325-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:16:57.325-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:16:57.331-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:16:57.331-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:16:57.338-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:17:37.507-0400] {processor.py:153} INFO - Started process (PID=31182) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:17:37.509-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:17:37.509-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:17:37.509-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:17:37.523-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:17:37.709-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:17:37.709-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:17:37.715-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:17:37.715-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:17:37.722-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T18:18:49.199-0400] {processor.py:153} INFO - Started process (PID=31296) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:18:49.201-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:18:49.201-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:18:49.201-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:18:49.215-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:18:49.399-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:18:49.399-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:18:49.405-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:18:49.405-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:18:49.412-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:20:04.342-0400] {processor.py:153} INFO - Started process (PID=31412) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:04.344-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:20:04.345-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:04.345-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:04.358-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:04.547-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:04.546-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:20:04.553-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:04.553-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:20:04.559-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.217 seconds
+[2023-03-24T18:20:44.634-0400] {processor.py:153} INFO - Started process (PID=31474) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:44.636-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:20:44.636-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:44.636-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:44.650-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:20:44.841-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:44.841-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:20:44.847-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:20:44.847-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:20:44.854-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.221 seconds
+[2023-03-24T18:21:24.536-0400] {processor.py:153} INFO - Started process (PID=31537) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:21:24.539-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:21:24.539-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:21:24.539-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:21:24.553-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:21:24.745-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:21:24.744-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:21:24.751-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:21:24.751-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:21:24.758-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.223 seconds
+[2023-03-24T18:22:03.107-0400] {processor.py:153} INFO - Started process (PID=31598) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:22:03.109-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:22:03.109-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:22:03.109-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:22:03.123-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:22:03.308-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:22:03.308-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:22:03.315-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:22:03.315-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:22:03.321-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T18:23:19.020-0400] {processor.py:153} INFO - Started process (PID=31718) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:19.022-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:23:19.022-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:19.022-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:19.036-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:19.221-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:19.221-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:23:19.227-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:19.227-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:23:19.234-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:23:59.427-0400] {processor.py:153} INFO - Started process (PID=31790) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:59.430-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:23:59.430-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:59.430-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:59.443-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:23:59.629-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:59.628-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:23:59.635-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:23:59.635-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:23:59.642-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T18:24:41.879-0400] {processor.py:153} INFO - Started process (PID=31855) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:24:41.881-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:24:41.881-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:24:41.881-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:24:41.895-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:24:42.079-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:24:42.079-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:24:42.085-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:24:42.085-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:24:42.092-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:25:55.684-0400] {processor.py:153} INFO - Started process (PID=31970) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:25:55.686-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:25:55.686-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:25:55.686-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:25:55.701-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:25:55.887-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:25:55.887-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:25:55.894-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:25:55.894-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:25:55.901-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.217 seconds
+[2023-03-24T18:27:10.901-0400] {processor.py:153} INFO - Started process (PID=32086) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:10.903-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:27:10.903-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:10.903-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:10.918-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:11.109-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:11.109-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:27:11.115-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:11.115-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:27:11.122-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.221 seconds
+[2023-03-24T18:27:51.834-0400] {processor.py:153} INFO - Started process (PID=32150) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:51.836-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:27:51.836-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:51.836-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:51.850-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:27:52.034-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:52.034-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:27:52.040-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:27:52.040-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:27:52.047-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:29:07.383-0400] {processor.py:153} INFO - Started process (PID=32272) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:29:07.385-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:29:07.385-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:29:07.385-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:29:07.399-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:29:07.582-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:29:07.582-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:29:07.588-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:29:07.588-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:29:07.595-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:30:20.729-0400] {processor.py:153} INFO - Started process (PID=32390) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:30:20.733-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:30:20.733-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:30:20.733-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:30:20.748-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:30:20.936-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:30:20.936-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:30:20.943-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:30:20.943-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:30:20.949-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.220 seconds
+[2023-03-24T18:31:38.450-0400] {processor.py:153} INFO - Started process (PID=32509) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:31:38.452-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:31:38.452-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:31:38.452-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:31:38.466-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:31:38.649-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:31:38.648-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:31:38.655-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:31:38.655-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:31:38.662-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.212 seconds
+[2023-03-24T18:32:56.506-0400] {processor.py:153} INFO - Started process (PID=32629) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:32:56.509-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:32:56.509-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:32:56.509-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:32:56.523-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:32:56.707-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:32:56.706-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:32:56.714-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:32:56.714-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:32:56.722-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.217 seconds
+[2023-03-24T18:34:11.942-0400] {processor.py:153} INFO - Started process (PID=32749) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:11.944-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:34:11.944-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:11.944-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:11.958-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:12.141-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:12.141-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:34:12.147-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:12.147-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:34:12.154-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.212 seconds
+[2023-03-24T18:34:50.669-0400] {processor.py:153} INFO - Started process (PID=32808) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:50.672-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:34:50.672-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:50.672-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:50.686-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:34:50.877-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:50.877-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:34:50.883-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:34:50.883-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:34:50.890-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.222 seconds
+[2023-03-24T18:35:29.569-0400] {processor.py:153} INFO - Started process (PID=32869) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:35:29.572-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:35:29.573-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:35:29.572-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:35:29.586-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:35:29.773-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:35:29.773-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:35:29.779-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:35:29.779-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:35:29.786-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.217 seconds
+[2023-03-24T18:36:09.572-0400] {processor.py:153} INFO - Started process (PID=32930) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:36:09.575-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:36:09.575-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:36:09.575-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:36:09.589-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:36:09.777-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:36:09.777-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:36:09.783-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:36:09.783-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:36:09.790-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T18:37:19.307-0400] {processor.py:153} INFO - Started process (PID=33049) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:37:19.309-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:37:19.310-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:37:19.309-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:37:19.324-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:37:19.512-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:37:19.511-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:37:19.518-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:37:19.518-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:37:19.525-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T18:38:00.061-0400] {processor.py:153} INFO - Started process (PID=33113) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:00.064-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:38:00.064-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:00.064-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:00.078-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:00.263-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:00.263-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:38:00.269-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:00.269-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:38:00.276-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T18:38:40.383-0400] {processor.py:153} INFO - Started process (PID=33176) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:40.385-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:38:40.385-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:40.385-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:40.398-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:38:40.583-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:40.583-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:38:40.589-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:38:40.589-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:38:40.596-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:39:20.586-0400] {processor.py:153} INFO - Started process (PID=33238) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:39:20.589-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:39:20.589-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:39:20.589-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:39:20.604-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:39:20.796-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:39:20.796-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:39:20.802-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:39:20.802-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:39:20.808-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.222 seconds
+[2023-03-24T18:40:33.764-0400] {processor.py:153} INFO - Started process (PID=33352) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:40:33.767-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:40:33.767-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:40:33.767-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:40:33.781-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:40:33.967-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:40:33.967-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:40:33.973-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:40:33.973-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:40:33.980-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.216 seconds
+[2023-03-24T18:41:12.833-0400] {processor.py:153} INFO - Started process (PID=33411) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:12.835-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:41:12.836-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:12.836-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:12.850-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:13.035-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:13.035-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:41:13.041-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:13.041-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:41:13.048-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T18:41:54.405-0400] {processor.py:153} INFO - Started process (PID=33473) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:54.407-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:41:54.407-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:54.407-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:54.421-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:41:54.605-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:54.605-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:41:54.611-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:41:54.611-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:41:54.618-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:43:09.908-0400] {processor.py:153} INFO - Started process (PID=33590) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:43:09.910-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:43:09.910-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:43:09.910-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:43:09.924-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:43:10.116-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:43:10.116-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:43:10.122-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:43:10.122-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:43:10.129-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.222 seconds
+[2023-03-24T18:44:26.510-0400] {processor.py:153} INFO - Started process (PID=33728) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:44:26.514-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:44:26.514-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:44:26.514-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:44:26.528-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:44:26.721-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:44:26.720-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:44:26.727-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:44:26.727-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:44:26.733-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.223 seconds
+[2023-03-24T18:45:07.704-0400] {processor.py:153} INFO - Started process (PID=33794) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:45:07.707-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:45:07.707-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:45:07.707-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:45:07.722-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:45:07.931-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:45:07.930-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:45:07.938-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:45:07.938-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:45:07.946-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.242 seconds
+[2023-03-24T18:46:22.697-0400] {processor.py:153} INFO - Started process (PID=33910) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:46:22.699-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:46:22.699-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:46:22.699-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:46:22.715-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:46:22.902-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:46:22.901-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:46:22.908-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:46:22.908-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:46:22.915-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T18:47:02.995-0400] {processor.py:153} INFO - Started process (PID=33972) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:02.998-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:47:02.998-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:02.998-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:03.047-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:03.331-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:03.331-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:47:03.339-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:03.339-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:47:03.348-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.353 seconds
+[2023-03-24T18:47:44.120-0400] {processor.py:153} INFO - Started process (PID=34043) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:44.124-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:47:44.124-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:44.124-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:44.140-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:47:44.348-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:44.348-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:47:44.354-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:47:44.354-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:47:44.362-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.242 seconds
+[2023-03-24T18:48:26.197-0400] {processor.py:153} INFO - Started process (PID=34108) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:48:26.203-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:48:26.203-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:48:26.203-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:48:26.219-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:48:26.410-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:48:26.410-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:48:26.416-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:48:26.416-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:48:26.423-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.227 seconds
+[2023-03-24T18:49:08.068-0400] {processor.py:153} INFO - Started process (PID=34180) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:49:08.071-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:49:08.071-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:49:08.071-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:49:08.088-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:49:08.295-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:49:08.295-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:49:08.302-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:49:08.302-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:49:08.310-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.242 seconds
+[2023-03-24T18:50:28.877-0400] {processor.py:153} INFO - Started process (PID=34341) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:50:28.879-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:50:28.879-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:50:28.879-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:50:28.894-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:50:29.078-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:50:29.078-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:50:29.084-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:50:29.084-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:50:29.091-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:51:09.573-0400] {processor.py:153} INFO - Started process (PID=34404) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:51:09.575-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:51:09.575-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:51:09.575-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:51:09.589-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:51:09.772-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:51:09.772-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:51:09.778-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:51:09.778-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:51:09.785-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:52:22.510-0400] {processor.py:153} INFO - Started process (PID=34520) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:52:22.513-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:52:22.513-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:52:22.513-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:52:22.526-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:52:22.710-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:52:22.710-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:52:22.717-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:52:22.717-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:52:22.724-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:53:02.608-0400] {processor.py:153} INFO - Started process (PID=34583) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:53:02.610-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:53:02.610-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:53:02.610-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:53:02.624-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:53:02.807-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:53:02.807-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:53:02.813-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:53:02.813-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:53:02.820-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.213 seconds
+[2023-03-24T18:54:15.971-0400] {processor.py:153} INFO - Started process (PID=34712) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:54:15.976-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:54:15.976-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:54:15.976-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:54:15.990-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:54:16.179-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:54:16.179-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:54:16.186-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:54:16.186-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:54:16.193-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.222 seconds
+[2023-03-24T18:55:33.521-0400] {processor.py:153} INFO - Started process (PID=34831) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:55:33.523-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:55:33.523-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:55:33.523-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:55:33.537-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:55:33.730-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:55:33.730-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:55:33.737-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:55:33.737-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:55:33.745-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.224 seconds
+[2023-03-24T18:56:14.841-0400] {processor.py:153} INFO - Started process (PID=34904) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:14.844-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:56:14.844-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:14.844-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:14.860-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:15.061-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:15.061-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:56:15.067-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:15.067-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:56:15.074-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.234 seconds
+[2023-03-24T18:56:55.199-0400] {processor.py:153} INFO - Started process (PID=34966) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:55.201-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:56:55.202-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:55.202-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:55.215-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:56:55.400-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:55.400-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:56:55.406-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:56:55.406-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:56:55.413-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.214 seconds
+[2023-03-24T18:58:13.908-0400] {processor.py:153} INFO - Started process (PID=35087) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:13.911-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:58:13.912-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:13.911-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:13.926-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:14.123-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:14.123-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:58:14.130-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:14.130-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:58:14.137-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.229 seconds
+[2023-03-24T18:58:56.511-0400] {processor.py:153} INFO - Started process (PID=35169) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:56.514-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T18:58:56.514-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:56.514-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:56.529-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T18:58:56.716-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:56.715-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T18:58:56.722-0400] {logging_mixin.py:137} INFO - [2023-03-24T18:58:56.722-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T18:58:56.729-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T19:00:08.248-0400] {processor.py:153} INFO - Started process (PID=35280) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:08.250-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:00:08.250-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:08.250-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:08.265-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:08.451-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:08.451-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:00:08.457-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:08.457-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:00:08.464-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.216 seconds
+[2023-03-24T19:00:49.251-0400] {processor.py:153} INFO - Started process (PID=35343) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:49.253-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:00:49.254-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:49.254-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:49.268-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:00:49.453-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:49.452-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:00:49.459-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:00:49.459-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:00:49.465-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T19:02:06.640-0400] {processor.py:153} INFO - Started process (PID=35467) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:02:06.642-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:02:06.642-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:02:06.642-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:02:06.657-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:02:06.856-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:02:06.856-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:02:06.862-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:02:06.862-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:02:06.869-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.229 seconds
+[2023-03-24T19:03:23.818-0400] {processor.py:153} INFO - Started process (PID=35589) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:03:23.821-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:03:23.822-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:03:23.822-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:03:23.836-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:03:24.026-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:03:24.026-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:03:24.032-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:03:24.032-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:03:24.039-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.221 seconds
+[2023-03-24T19:04:06.425-0400] {processor.py:153} INFO - Started process (PID=35661) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:04:06.429-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:04:06.429-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:04:06.429-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:04:06.443-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:04:06.627-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:04:06.627-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:04:06.633-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:04:06.633-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:04:06.640-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-24T19:05:22.320-0400] {processor.py:153} INFO - Started process (PID=35781) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:05:22.322-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:05:22.322-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:05:22.322-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:05:22.336-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:05:22.524-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:05:22.524-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:05:22.530-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:05:22.530-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:05:22.537-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T19:06:04.053-0400] {processor.py:153} INFO - Started process (PID=35847) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:04.055-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:06:04.056-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:04.056-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:04.070-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:04.299-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:04.299-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:06:04.306-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:04.306-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:06:04.314-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.261 seconds
+[2023-03-24T19:06:46.104-0400] {processor.py:153} INFO - Started process (PID=35915) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:46.106-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:06:46.107-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:46.107-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:46.121-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:06:46.307-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:46.307-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:06:46.313-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:06:46.313-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:06:46.320-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.216 seconds
+[2023-03-24T19:07:26.677-0400] {processor.py:153} INFO - Started process (PID=35981) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:07:26.680-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:07:26.681-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:07:26.681-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:07:26.695-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:07:26.882-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:07:26.881-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:07:26.888-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:07:26.888-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:07:26.895-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.218 seconds
+[2023-03-24T19:08:08.183-0400] {processor.py:153} INFO - Started process (PID=36044) to work on /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:08:08.185-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-24T19:08:08.185-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:08:08.185-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:08:08.199-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-24T19:08:08.390-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:08:08.390-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-24T19:08:08.396-0400] {logging_mixin.py:137} INFO - [2023-03-24T19:08:08.396-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-24T19:08:08.403-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.221 seconds

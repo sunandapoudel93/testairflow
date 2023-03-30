@@ -1,0 +1,18 @@
+[2023-03-20T00:24:09.127-0400] {processor.py:153} INFO - Started process (PID=59823) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:24:09.130-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-03-20T00:24:09.130-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.130-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:24:09.168-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:24:09.486-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.485-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2023-03-20T00:24:09.488-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.488-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2023-03-20T00:24:09.490-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.490-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2023-03-20T00:24:09.490-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.490-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-20T00:24:09.495-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.495-0400] {dag.py:2714} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2023-03-20T00:24:09.534-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:24:09.534-0400] {dag.py:3440} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-03-20T00:24:09.541-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.414 seconds
+[2023-03-20T00:25:29.955-0400] {processor.py:153} INFO - Started process (PID=59953) to work on /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:25:29.958-0400] {processor.py:743} INFO - Processing file /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-03-20T00:25:29.959-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:25:29.959-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:25:29.998-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-03-20T00:25:30.304-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:25:30.304-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-20T00:25:30.311-0400] {logging_mixin.py:137} INFO - [2023-03-20T00:25:30.311-0400] {dag.py:3440} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-03-20T00:25:30.320-0400] {processor.py:175} INFO - Processing /Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.365 seconds

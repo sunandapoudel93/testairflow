@@ -1,0 +1,366 @@
+[2023-03-21T20:23:11.440-0400] {processor.py:153} INFO - Started process (PID=42555) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-21T20:23:11.443-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-21T20:23:11.443-0400] {logging_mixin.py:137} INFO - [2023-03-21T20:23:11.443-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-21T20:23:11.470-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-21T20:23:11.690-0400] {logging_mixin.py:137} INFO - [2023-03-21T20:23:11.690-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-21T20:23:11.698-0400] {logging_mixin.py:137} INFO - [2023-03-21T20:23:11.698-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-21T00:00:00+00:00, run_after=2023-03-22T00:00:00+00:00
+[2023-03-21T20:23:11.705-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.265 seconds
+[2023-03-22T14:44:35.344-0400] {processor.py:153} INFO - Started process (PID=68903) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:44:35.348-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:44:35.348-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:35.348-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:44:35.504-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:44:35.494-0400] {dagbag.py:341} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/python-demo/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:44:35.504-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:44:35.704-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.361 seconds
+[2023-03-22T14:53:29.832-0400] {processor.py:153} INFO - Started process (PID=69525) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:53:29.836-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:53:29.836-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:53:29.836-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:53:29.870-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:53:29.862-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:53:29.870-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:53:30.052-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.220 seconds
+[2023-03-22T14:54:43.217-0400] {processor.py:153} INFO - Started process (PID=69641) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:54:43.220-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:54:43.221-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:54:43.221-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:54:43.255-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:54:43.246-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:54:43.255-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:54:43.437-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.220 seconds
+[2023-03-22T14:55:25.515-0400] {processor.py:153} INFO - Started process (PID=69707) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:55:25.517-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:55:25.518-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:55:25.518-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:55:25.549-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:55:25.541-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:55:25.549-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:55:25.735-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.220 seconds
+[2023-03-22T14:56:04.919-0400] {processor.py:153} INFO - Started process (PID=69771) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:04.921-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:56:04.921-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:04.921-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:04.955-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:04.946-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:56:04.955-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:05.150-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.231 seconds
+[2023-03-22T14:56:45.325-0400] {processor.py:153} INFO - Started process (PID=69832) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:45.328-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:56:45.328-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:45.328-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:45.364-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:56:45.355-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:56:45.364-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:56:45.550-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.226 seconds
+[2023-03-22T14:57:26.186-0400] {processor.py:153} INFO - Started process (PID=69895) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:57:26.188-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:57:26.188-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:57:26.188-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:57:26.219-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:57:26.211-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:57:26.219-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:57:26.407-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.221 seconds
+[2023-03-22T14:58:07.788-0400] {processor.py:153} INFO - Started process (PID=69962) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:07.792-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:58:07.792-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:07.792-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:07.830-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:07.821-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:58:07.830-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:08.032-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.245 seconds
+[2023-03-22T14:58:51.706-0400] {processor.py:153} INFO - Started process (PID=70030) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:51.709-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:58:51.709-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:51.709-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:51.743-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:58:51.734-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:58:51.743-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:58:51.949-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.243 seconds
+[2023-03-22T14:59:34.900-0400] {processor.py:153} INFO - Started process (PID=70100) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:59:34.903-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T14:59:34.903-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:59:34.903-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:59:34.938-0400] {logging_mixin.py:137} INFO - [2023-03-22T14:59:34.929-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T14:59:34.938-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T14:59:35.145-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.245 seconds
+[2023-03-22T15:00:17.845-0400] {processor.py:153} INFO - Started process (PID=70167) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:00:17.848-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:00:17.848-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:00:17.848-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:00:17.880-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:00:17.872-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T15:00:17.880-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:00:18.073-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.228 seconds
+[2023-03-22T15:01:01.693-0400] {processor.py:153} INFO - Started process (PID=70236) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:01.695-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:01:01.695-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:01.695-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:01.726-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:01.718-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T15:01:01.726-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:01.917-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.225 seconds
+[2023-03-22T15:01:44.628-0400] {processor.py:153} INFO - Started process (PID=70307) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:44.631-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:01:44.631-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:44.631-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:44.663-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:01:44.656-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T15:01:44.663-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:01:44.846-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.218 seconds
+[2023-03-22T15:02:27.377-0400] {processor.py:153} INFO - Started process (PID=70374) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:02:27.379-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:02:27.379-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:02:27.379-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:02:27.414-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:02:27.406-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T15:02:27.414-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:02:27.603-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.227 seconds
+[2023-03-22T15:03:11.013-0400] {processor.py:153} INFO - Started process (PID=70441) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:11.015-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:03:11.016-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:11.016-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:11.051-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:11.042-0400] {dagbag.py:343} ERROR - Failed to import: /Users/sunanda/airflow/dags/weatherapi_test.py
+Traceback (most recent call last):
+  File "/Users/sunanda/Downloads/airflow/py_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 42, in <module>
+    python_callable=save_posts("get_posts")
+  File "/Users/sunanda/airflow/dags/weatherapi_test.py", line 12, in save_posts
+    posts = ti.xcom_pull(task_id=['get_posts'])
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2023-03-22T15:03:11.051-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:11.243-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.231 seconds
+[2023-03-22T15:03:53.760-0400] {processor.py:153} INFO - Started process (PID=70530) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:53.763-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:03:53.763-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:53.763-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:53.792-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:03:54.012-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:54.012-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:03:54.032-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:03:54.032-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T15:03:54.045-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.285 seconds
+[2023-03-22T15:04:33.130-0400] {processor.py:153} INFO - Started process (PID=70592) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:04:33.132-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:04:33.132-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:33.132-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:04:33.158-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:04:33.367-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:33.367-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:04:33.375-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:04:33.375-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T15:04:33.382-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.253 seconds
+[2023-03-22T15:05:12.466-0400] {processor.py:153} INFO - Started process (PID=70657) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:12.470-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:05:12.470-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:12.470-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:12.497-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:12.714-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:12.713-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:05:12.721-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:12.721-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T15:05:12.728-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.262 seconds
+[2023-03-22T15:05:54.928-0400] {processor.py:153} INFO - Started process (PID=70727) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:54.931-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T15:05:54.931-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:54.931-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:54.959-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T15:05:55.193-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:55.193-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T15:05:55.200-0400] {logging_mixin.py:137} INFO - [2023-03-22T15:05:55.200-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T15:05:55.208-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.280 seconds
+[2023-03-22T16:18:01.980-0400] {processor.py:153} INFO - Started process (PID=74826) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:18:01.984-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T16:18:01.984-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:18:01.984-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:18:02.031-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:18:02.489-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:18:02.489-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:18:02.500-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:18:02.500-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:18:02.510-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.531 seconds
+[2023-03-22T16:26:07.966-0400] {processor.py:153} INFO - Started process (PID=75357) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:26:07.968-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T16:26:07.969-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:07.969-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:26:07.999-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T16:26:08.688-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:08.688-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T16:26:08.701-0400] {logging_mixin.py:137} INFO - [2023-03-22T16:26:08.701-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T16:26:08.708-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.743 seconds
+[2023-03-22T19:10:58.660-0400] {processor.py:153} INFO - Started process (PID=3735) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:10:58.662-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:10:58.663-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:10:58.663-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:10:58.691-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:10:58.908-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:10:58.908-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:10:58.916-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:10:58.916-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:10:58.923-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.263 seconds
+[2023-03-22T19:12:11.597-0400] {processor.py:153} INFO - Started process (PID=3855) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:11.600-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:12:11.600-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:11.600-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:11.626-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:11.841-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:11.840-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:12:11.849-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:11.848-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:12:11.858-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.261 seconds
+[2023-03-22T19:12:55.494-0400] {processor.py:153} INFO - Started process (PID=3922) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:55.496-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:12:55.496-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:55.496-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:55.520-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:12:55.734-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:55.734-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:12:55.741-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:12:55.741-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:12:55.748-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.255 seconds
+[2023-03-22T19:13:38.179-0400] {processor.py:153} INFO - Started process (PID=3991) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:38.181-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:13:38.181-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:38.181-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:38.208-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:38.420-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:38.420-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:13:38.428-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:38.428-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:13:38.435-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.256 seconds
+[2023-03-22T19:13:50.927-0400] {processor.py:153} INFO - Started process (PID=4012) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:50.930-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:13:50.930-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:50.930-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:50.957-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:13:51.171-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:51.170-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:13:51.179-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:13:51.179-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:13:51.187-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.260 seconds
+[2023-03-22T19:20:48.955-0400] {processor.py:153} INFO - Started process (PID=4498) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:20:48.957-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:20:48.958-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:20:48.957-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:20:48.984-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:20:49.199-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:20:49.199-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:20:49.206-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:20:49.206-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:20:49.213-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.258 seconds
+[2023-03-22T19:23:49.468-0400] {processor.py:153} INFO - Started process (PID=4718) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:23:49.471-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:23:49.471-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:49.471-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:23:49.499-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:23:49.724-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:49.724-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:23:49.732-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:23:49.732-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:23:49.740-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.273 seconds
+[2023-03-22T19:25:02.762-0400] {processor.py:153} INFO - Started process (PID=4831) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:02.766-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:25:02.766-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:02.766-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:02.794-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:03.008-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:03.008-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:25:03.016-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:03.016-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:25:03.023-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.261 seconds
+[2023-03-22T19:25:45.324-0400] {processor.py:153} INFO - Started process (PID=4895) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:45.326-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:25:45.326-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:45.326-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:45.353-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:25:45.571-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:45.571-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:25:45.579-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:25:45.579-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:25:45.586-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.263 seconds
+[2023-03-22T19:26:25.700-0400] {processor.py:153} INFO - Started process (PID=4958) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:26:25.704-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:26:25.704-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:26:25.704-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:26:25.736-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:26:25.950-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:26:25.949-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:26:25.957-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:26:25.957-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:26:25.965-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.265 seconds
+[2023-03-22T19:27:08.416-0400] {processor.py:153} INFO - Started process (PID=5026) to work on /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:27:08.420-0400] {processor.py:743} INFO - Processing file /Users/sunanda/airflow/dags/weatherapi_test.py for tasks to queue
+[2023-03-22T19:27:08.420-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:27:08.420-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:27:08.447-0400] {processor.py:753} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /Users/sunanda/airflow/dags/weatherapi_test.py
+[2023-03-22T19:27:08.671-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:27:08.671-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-22T19:27:08.682-0400] {logging_mixin.py:137} INFO - [2023-03-22T19:27:08.682-0400] {dag.py:3437} INFO - Setting next_dagrun for api_dag to 2023-03-22T00:00:00+00:00, run_after=2023-03-23T00:00:00+00:00
+[2023-03-22T19:27:08.690-0400] {processor.py:175} INFO - Processing /Users/sunanda/airflow/dags/weatherapi_test.py took 0.274 seconds
